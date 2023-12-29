@@ -1,0 +1,13 @@
+<suite name="Web Automation Suite" verbose="1">
+    <parameter name="url" value="https://d-box-test.materiasistemas.com.ar/login"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="usernameCliente" value="1qat"/>
+    <parameter name="passwordCliente" value="tester"/>
+
+    <test name="Search Test">
+        <classes>
+            <class name="tests.LoginTests"/>
+        </classes>
+    </test>
+
+</suite>
